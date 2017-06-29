@@ -701,17 +701,12 @@ const StreamActions = React.createClass({
 
             <div className="btn-group">
               <a
-                className="btn btn-default btn-sm hidden-xs realtime-control"
+                className="btn btn-default btn-sm hidden-xs realtime-control tip"
+                title={`${this.props.realtimeActive ? 'Pause' : 'Enable'} real-time updates`}
                 onClick={this.onRealtimeChange}>
                 {this.props.realtimeActive
-                  ? <span
-                      className="icon icon-pause tip"
-                      title="Pause real-time updates"
-                    />
-                  : <span
-                      className="icon icon-play tip"
-                      title="Enable real-time updates"
-                    />}
+                  ? <span className="icon icon-pause" />
+                  : <span className="icon icon-play" />}
               </a>
             </div>
           </div>
