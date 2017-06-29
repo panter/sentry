@@ -1,0 +1,1076 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stream render() has "play" (live events) button enabled when there are no events 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Container>
+    <div
+        className="stream-row"
+    >
+        <div
+            className="stream-content"
+        >
+            <StreamFilters
+                access={Array []}
+                defaultQuery={null}
+                filter=""
+                isSearchDisabled={false}
+                onSavedSearchCreate={[Function]}
+                onSearch={[Function]}
+                onSidebarToggle={[Function]}
+                onSortChange={[Function]}
+                orgId="123"
+                projectId="456"
+                query="is:unresolved"
+                savedSearchList={Array []}
+                searchId={null}
+                sort="date"
+                tags={
+                    Object {
+                        "assigned": Object {
+                          "key": "assigned",
+                          "name": "Assigned To",
+                          "predefined": true,
+                          "values": Array [],
+                        },
+                        "bookmarks": Object {
+                          "key": "bookmarks",
+                          "name": "Bookmarked By",
+                          "predefined": true,
+                          "values": Array [],
+                        },
+                        "has": Object {
+                          "key": "has",
+                          "name": "Has Tag",
+                          "predefined": true,
+                          "values": Array [],
+                        },
+                        "is": Object {
+                          "key": "is",
+                          "name": "Status",
+                          "predefined": true,
+                          "values": Array [
+                            "resolved",
+                            "unresolved",
+                            "ignored",
+                            "muted",
+                            "assigned",
+                            "unassigned",
+                          ],
+                        },
+                      }
+                }
+            />
+            <Sticky
+                bottomOffset={0}
+                className=""
+                isActive={true}
+                onStickyStateChange={[Function]}
+                stickyClassName="sticky"
+                stickyStyle={Object {}}
+                style={Object {}}
+                topOffset={0}
+            >
+                <div
+                    className="group-header"
+                >
+                    <div
+                        className={null}
+                    >
+                        <StreamActions
+                            allResultsVisible={false}
+                            groupIds={Array []}
+                            hasReleases={false}
+                            onRealtimeChange={[Function]}
+                            onSelectStatsPeriod={[Function]}
+                            orgId="123"
+                            projectId="456"
+                            query="is:unresolved"
+                            realtimeActive={true}
+                            statsPeriod="24h"
+                        />
+                    </div>
+                </div>
+            </Sticky>
+            <div
+                className="box awaiting-events"
+            >
+                <div
+                    className="wrap"
+                >
+                    <div
+                        className="robot"
+                    >
+                        <span
+                            className="eye"
+                        />
+                    </div>
+                    <h3>
+                        Waiting for events…
+                    </h3>
+                    <p>
+                        <span>
+                            <span>
+                                Our error robot is waiting to 
+                            </span>
+                            <span
+                                className="strikethrough"
+                            >
+                                <span>
+                                    devour
+                                </span>
+                            </span>
+                            <span>
+                                 receive your first event.
+                            </span>
+                        </span>
+                    </p>
+                    <p>
+                        <Link
+                            className="btn btn-primary btn-lg"
+                            onlyActiveOnIndex={false}
+                            style={Object {}}
+                            to="/foo-org/foo-project/getting-started/"
+                        >
+                            Installation Instructions
+                        </Link>
+                    </p>
+                </div>
+            </div>
+            <pagination
+                onCursor={[Function]}
+                pageLinks=""
+            />
+        </div>
+        <StreamSidebar
+            loading={true}
+            onQueryChange={[Function]}
+            orgId="123"
+            projectId="456"
+            query="is:unresolved"
+            tags={
+                Object {
+                    "assigned": Object {
+                      "key": "assigned",
+                      "name": "Assigned To",
+                      "predefined": true,
+                      "values": Array [],
+                    },
+                    "bookmarks": Object {
+                      "key": "bookmarks",
+                      "name": "Bookmarked By",
+                      "predefined": true,
+                      "values": Array [],
+                    },
+                    "has": Object {
+                      "key": "has",
+                      "name": "Has Tag",
+                      "predefined": true,
+                      "values": Array [],
+                    },
+                    "is": Object {
+                      "key": "is",
+                      "name": "Status",
+                      "predefined": true,
+                      "values": Array [
+                        "resolved",
+                        "unresolved",
+                        "ignored",
+                        "muted",
+                        "assigned",
+                        "unassigned",
+                      ],
+                    },
+                  }
+            }
+        />
+    </div>
+</Container>,
+  "nodes": Array [
+    <Container>
+      <div
+            className="stream-row"
+      >
+            <div
+                  className="stream-content"
+            >
+                  <StreamFilters
+                        access={Array []}
+                        defaultQuery={null}
+                        filter=""
+                        isSearchDisabled={false}
+                        onSavedSearchCreate={[Function]}
+                        onSearch={[Function]}
+                        onSidebarToggle={[Function]}
+                        onSortChange={[Function]}
+                        orgId="123"
+                        projectId="456"
+                        query="is:unresolved"
+                        savedSearchList={Array []}
+                        searchId={null}
+                        sort="date"
+                        tags={
+                              Object {
+                                    "assigned": Object {
+                                      "key": "assigned",
+                                      "name": "Assigned To",
+                                      "predefined": true,
+                                      "values": Array [],
+                                    },
+                                    "bookmarks": Object {
+                                      "key": "bookmarks",
+                                      "name": "Bookmarked By",
+                                      "predefined": true,
+                                      "values": Array [],
+                                    },
+                                    "has": Object {
+                                      "key": "has",
+                                      "name": "Has Tag",
+                                      "predefined": true,
+                                      "values": Array [],
+                                    },
+                                    "is": Object {
+                                      "key": "is",
+                                      "name": "Status",
+                                      "predefined": true,
+                                      "values": Array [
+                                        "resolved",
+                                        "unresolved",
+                                        "ignored",
+                                        "muted",
+                                        "assigned",
+                                        "unassigned",
+                                      ],
+                                    },
+                                  }
+                        }
+                  />
+                  <Sticky
+                        bottomOffset={0}
+                        className=""
+                        isActive={true}
+                        onStickyStateChange={[Function]}
+                        stickyClassName="sticky"
+                        stickyStyle={Object {}}
+                        style={Object {}}
+                        topOffset={0}
+                  >
+                        <div
+                              className="group-header"
+                        >
+                              <div
+                                    className={null}
+                              >
+                                    <StreamActions
+                                          allResultsVisible={false}
+                                          groupIds={Array []}
+                                          hasReleases={false}
+                                          onRealtimeChange={[Function]}
+                                          onSelectStatsPeriod={[Function]}
+                                          orgId="123"
+                                          projectId="456"
+                                          query="is:unresolved"
+                                          realtimeActive={true}
+                                          statsPeriod="24h"
+                                    />
+                              </div>
+                        </div>
+                  </Sticky>
+                  <div
+                        className="box awaiting-events"
+                  >
+                        <div
+                              className="wrap"
+                        >
+                              <div
+                                    className="robot"
+                              >
+                                    <span
+                                          className="eye"
+                                    />
+                              </div>
+                              <h3>
+                                    Waiting for events…
+                              </h3>
+                              <p>
+                                    <span>
+                                          <span>
+                                                Our error robot is waiting to 
+                                          </span>
+                                          <span
+                                                className="strikethrough"
+                                          >
+                                                <span>
+                                                      devour
+                                                </span>
+                                          </span>
+                                          <span>
+                                                 receive your first event.
+                                          </span>
+                                    </span>
+                              </p>
+                              <p>
+                                    <Link
+                                          className="btn btn-primary btn-lg"
+                                          onlyActiveOnIndex={false}
+                                          style={Object {}}
+                                          to="/foo-org/foo-project/getting-started/"
+                                    >
+                                          Installation Instructions
+                                    </Link>
+                              </p>
+                        </div>
+                  </div>
+                  <pagination
+                        onCursor={[Function]}
+                        pageLinks=""
+                  />
+            </div>
+            <StreamSidebar
+                  loading={true}
+                  onQueryChange={[Function]}
+                  orgId="123"
+                  projectId="456"
+                  query="is:unresolved"
+                  tags={
+                        Object {
+                              "assigned": Object {
+                                "key": "assigned",
+                                "name": "Assigned To",
+                                "predefined": true,
+                                "values": Array [],
+                              },
+                              "bookmarks": Object {
+                                "key": "bookmarks",
+                                "name": "Bookmarked By",
+                                "predefined": true,
+                                "values": Array [],
+                              },
+                              "has": Object {
+                                "key": "has",
+                                "name": "Has Tag",
+                                "predefined": true,
+                                "values": Array [],
+                              },
+                              "is": Object {
+                                "key": "is",
+                                "name": "Status",
+                                "predefined": true,
+                                "values": Array [
+                                  "resolved",
+                                  "unresolved",
+                                  "ignored",
+                                  "muted",
+                                  "assigned",
+                                  "unassigned",
+                                ],
+                              },
+                            }
+                  }
+            />
+      </div>
+</Container>,
+  ],
+  "options": Object {
+    "context": Object {
+      "organization": Object {
+        "id": "1337",
+        "slug": "foo-org",
+      },
+      "project": Object {
+        "firstEvent": false,
+        "id": "3559",
+        "slug": "foo-project",
+      },
+      "team": Object {
+        "id": "2448",
+      },
+    },
+  },
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {
+        "organization": Object {
+          "id": "1337",
+          "slug": "foo-org",
+        },
+        "project": Object {
+          "firstEvent": false,
+          "id": "3559",
+          "slug": "foo-project",
+        },
+        "team": Object {
+          "id": "2448",
+        },
+      },
+      "_currentElement": <Stream
+        defaultQuery={null}
+        defaultSort="date"
+        defaultStatsPeriod="24h"
+        location={
+                Object {
+                        "query": Object {
+                          "query": "is:unresolved",
+                        },
+                        "search": "query=is:unresolved",
+                      }
+        }
+        maxItems={25}
+        params={
+                Object {
+                        "orgId": "123",
+                        "projectId": "456",
+                      }
+        }
+        setProjectNavSection={[Function]}
+/>,
+      "_debugID": 28,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Constructor {
+        "_poller": CursorPoller {
+          "_active": false,
+          "_baseDelay": 3000,
+          "_maxDelay": 60000,
+          "_pollingEndpoint": undefined,
+          "_reqsWithoutData": 0,
+          "_timeoutId": null,
+          "api": Client {
+            "activeRequests": Object {},
+            "baseUrl": "/api/0",
+          },
+          "options": Object {
+            "success": [Function],
+          },
+        },
+        "_reactInternalInstance": [Circular],
+        "_streamManager": StreamManager {
+          "idList": Array [],
+          "limit": 1000,
+          "store": Store {
+            "_itemIdsOrAll": [Function],
+            "add": [Function],
+            "addActivity": [Function],
+            "addStatus": [Function],
+            "clearStatus": [Function],
+            "constructor": [Function],
+            "deferWith": [Function],
+            "emitter": EventEmitter {
+              "addListener": [Function],
+              "constructor": [Function],
+              "emit": [Function],
+              "eventNames": [Function],
+              "listeners": [Function],
+              "off": [Function],
+              "on": [Function],
+              "once": [Function],
+              "removeAllListeners": [Function],
+              "removeListener": [Function],
+              "setMaxListeners": [Function],
+            },
+            "eventLabel": "change",
+            "fetchInitialState": [Function],
+            "get": [Function],
+            "getAllItemIds": [Function],
+            "getAllItems": [Function],
+            "hasListener": [Function],
+            "hasStatus": [Function],
+            "indexOfActivity": [Function],
+            "init": [Function],
+            "items": Array [],
+            "joinConcat": [Function],
+            "joinLeading": [Function],
+            "joinStrict": [Function],
+            "joinTrailing": [Function],
+            "listen": [Function],
+            "listenTo": [Function],
+            "listenToMany": [Function],
+            "listenables": Array [],
+            "loadInitialData": [Function],
+            "onAssignTo": [Function],
+            "onAssignToError": [Function],
+            "onAssignToSuccess": [Function],
+            "onDelete": [Function],
+            "onDeleteError": [Function],
+            "onDeleteSuccess": [Function],
+            "onMerge": [Function],
+            "onMergeError": [Function],
+            "onMergeSuccess": [Function],
+            "onUpdate": [Function],
+            "onUpdateError": [Function],
+            "onUpdateSuccess": [Function],
+            "pendingChanges": PendingChangeQueue {
+              "changes": Array [],
+              "constructor": [Function],
+              "forEach": [Function],
+              "getForItem": [Function],
+              "push": [Function],
+              "remove": [Function],
+            },
+            "preEmit": [Function],
+            "remove": [Function],
+            "removeActivity": [Function],
+            "reset": [Function],
+            "shouldEmit": [Function],
+            "statuses": Object {},
+            "stopListeningTo": [Function],
+            "stopListeningToAll": [Function],
+            "subscriptions": Array [],
+            "trigger": [Function],
+            "triggerAsync": [Function],
+            "updateActivity": [Function],
+            "validateListening": [Function],
+          },
+        },
+        "allResultsVisible": [Function],
+        "api": Client {
+          "activeRequests": Object {},
+          "baseUrl": "/api/0",
+        },
+        "context": Object {
+          "organization": Object {
+            "id": "1337",
+            "slug": "foo-org",
+          },
+          "project": Object {
+            "firstEvent": false,
+            "id": "3559",
+            "slug": "foo-project",
+          },
+          "team": Object {
+            "id": "2448",
+          },
+        },
+        "fetchData": [Function],
+        "fetchProcessingIssues": [Function],
+        "fetchSavedSearches": [Function],
+        "fetchTags": [Function],
+        "getAccess": [Function],
+        "getFeatures": [Function],
+        "getGroupListEndpoint": [Function],
+        "getOnboardingTasks": [Function],
+        "getOrganization": [Function],
+        "getProject": [Function],
+        "getProjectFeatures": [Function],
+        "getQueryState": [Function],
+        "getTeam": [Function],
+        "hasQuery": [Function],
+        "lastRequest": undefined,
+        "onGroupChange": [Function],
+        "onRealtimeChange": [Function],
+        "onRealtimePoll": [Function],
+        "onSavedSearchCreate": [Function],
+        "onSearch": [Function],
+        "onSelectStatsPeriod": [Function],
+        "onSidebarToggle": [Function],
+        "onSortChange": [Function],
+        "onStickyStateChange": [Function],
+        "onStreamTagChange": [Function],
+        "props": Object {
+          "defaultQuery": null,
+          "defaultSort": "date",
+          "defaultStatsPeriod": "24h",
+          "location": Object {
+            "query": Object {
+              "query": "is:unresolved",
+            },
+            "search": "query=is:unresolved",
+          },
+          "maxItems": 25,
+          "params": Object {
+            "orgId": "123",
+            "projectId": "456",
+          },
+          "setProjectNavSection": [Function],
+        },
+        "refs": Object {},
+        "renderAwaitingEvents": [Function],
+        "renderEmpty": [Function],
+        "renderGroupNodes": [Function],
+        "renderLoading": [Function],
+        "renderProcessingIssuesHint": [Function],
+        "renderStreamBody": [Function],
+        "resumePolling": [Function],
+        "showingProcessingIssues": [Function],
+        "state": Object {
+          "anySelected": false,
+          "dataLoading": false,
+          "error": false,
+          "groupIds": Array [],
+          "isDefaultSearch": false,
+          "isSidebarVisible": false,
+          "isStickyHeader": false,
+          "loading": false,
+          "multiSelected": false,
+          "pageLinks": "",
+          "processingIssues": null,
+          "query": "is:unresolved",
+          "realtimeActive": true,
+          "savedSearchList": Array [],
+          "savedSearchLoading": true,
+          "searchId": null,
+          "selectAllActive": false,
+          "sort": "date",
+          "statsPeriod": "24h",
+          "tags": Object {
+            "assigned": Object {
+              "key": "assigned",
+              "name": "Assigned To",
+              "predefined": true,
+              "values": Array [],
+            },
+            "bookmarks": Object {
+              "key": "bookmarks",
+              "name": "Bookmarked By",
+              "predefined": true,
+              "values": Array [],
+            },
+            "has": Object {
+              "key": "has",
+              "name": "Has Tag",
+              "predefined": true,
+              "values": Array [],
+            },
+            "is": Object {
+              "key": "is",
+              "name": "Status",
+              "predefined": true,
+              "values": Array [
+                "resolved",
+                "unresolved",
+                "ignored",
+                "muted",
+                "assigned",
+                "unassigned",
+              ],
+            },
+          },
+          "tagsLoading": true,
+        },
+        "transitionTo": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 14,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": Object {
+        "_currentElement": <Container>
+          <div
+                    className="stream-row"
+          >
+                    <div
+                              className="stream-content"
+                    >
+                              <StreamFilters
+                                        access={Array []}
+                                        defaultQuery={null}
+                                        filter=""
+                                        isSearchDisabled={false}
+                                        onSavedSearchCreate={[Function]}
+                                        onSearch={[Function]}
+                                        onSidebarToggle={[Function]}
+                                        onSortChange={[Function]}
+                                        orgId="123"
+                                        projectId="456"
+                                        query="is:unresolved"
+                                        savedSearchList={Array []}
+                                        searchId={null}
+                                        sort="date"
+                                        tags={
+                                                  Object {
+                                                            "assigned": Object {
+                                                              "key": "assigned",
+                                                              "name": "Assigned To",
+                                                              "predefined": true,
+                                                              "values": Array [],
+                                                            },
+                                                            "bookmarks": Object {
+                                                              "key": "bookmarks",
+                                                              "name": "Bookmarked By",
+                                                              "predefined": true,
+                                                              "values": Array [],
+                                                            },
+                                                            "has": Object {
+                                                              "key": "has",
+                                                              "name": "Has Tag",
+                                                              "predefined": true,
+                                                              "values": Array [],
+                                                            },
+                                                            "is": Object {
+                                                              "key": "is",
+                                                              "name": "Status",
+                                                              "predefined": true,
+                                                              "values": Array [
+                                                                "resolved",
+                                                                "unresolved",
+                                                                "ignored",
+                                                                "muted",
+                                                                "assigned",
+                                                                "unassigned",
+                                                              ],
+                                                            },
+                                                          }
+                                        }
+                              />
+                              <Sticky
+                                        bottomOffset={0}
+                                        className=""
+                                        isActive={true}
+                                        onStickyStateChange={[Function]}
+                                        stickyClassName="sticky"
+                                        stickyStyle={Object {}}
+                                        style={Object {}}
+                                        topOffset={0}
+                              >
+                                        <div
+                                                  className="group-header"
+                                        >
+                                                  <div
+                                                            className={null}
+                                                  >
+                                                            <StreamActions
+                                                                      allResultsVisible={false}
+                                                                      groupIds={Array []}
+                                                                      hasReleases={false}
+                                                                      onRealtimeChange={[Function]}
+                                                                      onSelectStatsPeriod={[Function]}
+                                                                      orgId="123"
+                                                                      projectId="456"
+                                                                      query="is:unresolved"
+                                                                      realtimeActive={true}
+                                                                      statsPeriod="24h"
+                                                            />
+                                                  </div>
+                                        </div>
+                              </Sticky>
+                              <div
+                                        className="box awaiting-events"
+                              >
+                                        <div
+                                                  className="wrap"
+                                        >
+                                                  <div
+                                                            className="robot"
+                                                  >
+                                                            <span
+                                                                      className="eye"
+                                                            />
+                                                  </div>
+                                                  <h3>
+                                                            Waiting for events…
+                                                  </h3>
+                                                  <p>
+                                                            <span>
+                                                                      <span>
+                                                                                Our error robot is waiting to 
+                                                                      </span>
+                                                                      <span
+                                                                                className="strikethrough"
+                                                                      >
+                                                                                <span>
+                                                                                          devour
+                                                                                </span>
+                                                                      </span>
+                                                                      <span>
+                                                                                 receive your first event.
+                                                                      </span>
+                                                            </span>
+                                                  </p>
+                                                  <p>
+                                                            <Link
+                                                                      className="btn btn-primary btn-lg"
+                                                                      onlyActiveOnIndex={false}
+                                                                      style={Object {}}
+                                                                      to="/foo-org/foo-project/getting-started/"
+                                                            >
+                                                                      Installation Instructions
+                                                            </Link>
+                                                  </p>
+                                        </div>
+                              </div>
+                              <pagination
+                                        onCursor={[Function]}
+                                        pageLinks=""
+                              />
+                    </div>
+                    <StreamSidebar
+                              loading={true}
+                              onQueryChange={[Function]}
+                              orgId="123"
+                              projectId="456"
+                              query="is:unresolved"
+                              tags={
+                                        Object {
+                                                  "assigned": Object {
+                                                    "key": "assigned",
+                                                    "name": "Assigned To",
+                                                    "predefined": true,
+                                                    "values": Array [],
+                                                  },
+                                                  "bookmarks": Object {
+                                                    "key": "bookmarks",
+                                                    "name": "Bookmarked By",
+                                                    "predefined": true,
+                                                    "values": Array [],
+                                                  },
+                                                  "has": Object {
+                                                    "key": "has",
+                                                    "name": "Has Tag",
+                                                    "predefined": true,
+                                                    "values": Array [],
+                                                  },
+                                                  "is": Object {
+                                                    "key": "is",
+                                                    "name": "Status",
+                                                    "predefined": true,
+                                                    "values": Array [
+                                                      "resolved",
+                                                      "unresolved",
+                                                      "ignored",
+                                                      "muted",
+                                                      "assigned",
+                                                      "unassigned",
+                                                    ],
+                                                  },
+                                                }
+                              }
+                    />
+          </div>
+</Container>,
+        "_debugID": 29,
+        "_renderedOutput": <Container>
+          <div
+                    className="stream-row"
+          >
+                    <div
+                              className="stream-content"
+                    >
+                              <StreamFilters
+                                        access={Array []}
+                                        defaultQuery={null}
+                                        filter=""
+                                        isSearchDisabled={false}
+                                        onSavedSearchCreate={[Function]}
+                                        onSearch={[Function]}
+                                        onSidebarToggle={[Function]}
+                                        onSortChange={[Function]}
+                                        orgId="123"
+                                        projectId="456"
+                                        query="is:unresolved"
+                                        savedSearchList={Array []}
+                                        searchId={null}
+                                        sort="date"
+                                        tags={
+                                                  Object {
+                                                            "assigned": Object {
+                                                              "key": "assigned",
+                                                              "name": "Assigned To",
+                                                              "predefined": true,
+                                                              "values": Array [],
+                                                            },
+                                                            "bookmarks": Object {
+                                                              "key": "bookmarks",
+                                                              "name": "Bookmarked By",
+                                                              "predefined": true,
+                                                              "values": Array [],
+                                                            },
+                                                            "has": Object {
+                                                              "key": "has",
+                                                              "name": "Has Tag",
+                                                              "predefined": true,
+                                                              "values": Array [],
+                                                            },
+                                                            "is": Object {
+                                                              "key": "is",
+                                                              "name": "Status",
+                                                              "predefined": true,
+                                                              "values": Array [
+                                                                "resolved",
+                                                                "unresolved",
+                                                                "ignored",
+                                                                "muted",
+                                                                "assigned",
+                                                                "unassigned",
+                                                              ],
+                                                            },
+                                                          }
+                                        }
+                              />
+                              <Sticky
+                                        bottomOffset={0}
+                                        className=""
+                                        isActive={true}
+                                        onStickyStateChange={[Function]}
+                                        stickyClassName="sticky"
+                                        stickyStyle={Object {}}
+                                        style={Object {}}
+                                        topOffset={0}
+                              >
+                                        <div
+                                                  className="group-header"
+                                        >
+                                                  <div
+                                                            className={null}
+                                                  >
+                                                            <StreamActions
+                                                                      allResultsVisible={false}
+                                                                      groupIds={Array []}
+                                                                      hasReleases={false}
+                                                                      onRealtimeChange={[Function]}
+                                                                      onSelectStatsPeriod={[Function]}
+                                                                      orgId="123"
+                                                                      projectId="456"
+                                                                      query="is:unresolved"
+                                                                      realtimeActive={true}
+                                                                      statsPeriod="24h"
+                                                            />
+                                                  </div>
+                                        </div>
+                              </Sticky>
+                              <div
+                                        className="box awaiting-events"
+                              >
+                                        <div
+                                                  className="wrap"
+                                        >
+                                                  <div
+                                                            className="robot"
+                                                  >
+                                                            <span
+                                                                      className="eye"
+                                                            />
+                                                  </div>
+                                                  <h3>
+                                                            Waiting for events…
+                                                  </h3>
+                                                  <p>
+                                                            <span>
+                                                                      <span>
+                                                                                Our error robot is waiting to 
+                                                                      </span>
+                                                                      <span
+                                                                                className="strikethrough"
+                                                                      >
+                                                                                <span>
+                                                                                          devour
+                                                                                </span>
+                                                                      </span>
+                                                                      <span>
+                                                                                 receive your first event.
+                                                                      </span>
+                                                            </span>
+                                                  </p>
+                                                  <p>
+                                                            <Link
+                                                                      className="btn btn-primary btn-lg"
+                                                                      onlyActiveOnIndex={false}
+                                                                      style={Object {}}
+                                                                      to="/foo-org/foo-project/getting-started/"
+                                                            >
+                                                                      Installation Instructions
+                                                            </Link>
+                                                  </p>
+                                        </div>
+                              </div>
+                              <pagination
+                                        onCursor={[Function]}
+                                        pageLinks=""
+                              />
+                    </div>
+                    <StreamSidebar
+                              loading={true}
+                              onQueryChange={[Function]}
+                              orgId="123"
+                              projectId="456"
+                              query="is:unresolved"
+                              tags={
+                                        Object {
+                                                  "assigned": Object {
+                                                    "key": "assigned",
+                                                    "name": "Assigned To",
+                                                    "predefined": true,
+                                                    "values": Array [],
+                                                  },
+                                                  "bookmarks": Object {
+                                                    "key": "bookmarks",
+                                                    "name": "Bookmarked By",
+                                                    "predefined": true,
+                                                    "values": Array [],
+                                                  },
+                                                  "has": Object {
+                                                    "key": "has",
+                                                    "name": "Has Tag",
+                                                    "predefined": true,
+                                                    "values": Array [],
+                                                  },
+                                                  "is": Object {
+                                                    "key": "is",
+                                                    "name": "Status",
+                                                    "predefined": true,
+                                                    "values": Array [
+                                                      "resolved",
+                                                      "unresolved",
+                                                      "ignored",
+                                                      "muted",
+                                                      "assigned",
+                                                      "unassigned",
+                                                    ],
+                                                  },
+                                                }
+                              }
+                    />
+          </div>
+</Container>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Stream
+    defaultQuery={null}
+    defaultSort="date"
+    defaultStatsPeriod="24h"
+    location={
+        Object {
+            "query": Object {
+              "query": "is:unresolved",
+            },
+            "search": "query=is:unresolved",
+          }
+    }
+    maxItems={25}
+    params={
+        Object {
+            "orgId": "123",
+            "projectId": "456",
+          }
+    }
+    setProjectNavSection={[Function]}
+/>,
+}
+`;

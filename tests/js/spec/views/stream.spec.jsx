@@ -195,6 +195,42 @@ describe('Stream', function() {
 
       this.context.project.firstEvent = true; // Reset for other tests
     });
+
+    it('does not have real time event updates when events exist', function() {
+      let wrapper = shallow(<Stream {...this.wrapper.instance().props} />, {
+        context: {
+          ...this.context,
+          project: {
+            ...this.context.project,
+            firstEvent: true
+          }
+        }
+      });
+
+      expect(wrapper.state('realtimeActive')).toBe(false);
+    });
+
+    it('has "play" (live events) button enabled when there are no events', function() {
+      let wrapper = shallow(<Stream {...this.wrapper.instance().props} />, {
+        context: {
+          ...this.context,
+          project: {
+            ...this.context.project,
+            firstEvent: false
+          }
+        }
+      });
+
+      wrapper.setState({
+        error: false,
+        groupIds: [],
+        loading: false,
+        dataLoading: false
+      });
+
+      expect(wrapper.state('realtimeActive')).toBe(true);
+      expect(wrapper).toMatchSnapshot();
+    });
   });
 
   describe('componentWillMount()', function() {

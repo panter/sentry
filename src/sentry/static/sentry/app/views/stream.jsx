@@ -52,6 +52,7 @@ const Stream = React.createClass({
 
   getInitialState() {
     let searchId = this.props.params.searchId || null;
+    let project = this.getProject();
     return {
       groupIds: [],
       isDefaultSearch: null,
@@ -64,7 +65,8 @@ const Stream = React.createClass({
       multiSelected: false,
       anySelected: false,
       statsPeriod: this.props.defaultStatsPeriod,
-      realtimeActive: Cookies.get('realtimeActive') === 'true',
+      realtimeActive: Cookies.get('realtimeActive') === 'true' ||
+        (project && !project.firstEvent),
       pageLinks: '',
       dataLoading: true,
       error: false,
